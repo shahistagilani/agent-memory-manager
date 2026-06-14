@@ -40,6 +40,17 @@ agent-memory/
 ├── images/ Screenshots and architecture diagrams
 └── README.md
 
+## Setup
+
+Open the Repo in VSCode
+
+### Create Virtual Environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+### Install Dependencies
+pip install -r requirements.txt
+
 ## Stack
 
 - Oracle AI Database via `gvenzl/oracle-free`
