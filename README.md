@@ -45,8 +45,10 @@ agent-memory/
 Open the Repo in VSCode
 
 ### Create Virtual Environment
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 ### Install Dependencies
 pip install -r requirements.txt
